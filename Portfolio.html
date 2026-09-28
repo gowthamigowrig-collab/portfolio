@@ -1,0 +1,180 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+}
+
+/* Bio */
+.bio {
+    width: 50%;
+}
+
+/* Image */
+.image {
+    width: 40%;
+    text-align: center;
+}
+
+.image img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 5px solid #222;
+    object-fit: cover;
+}
+
+/* Section styling */
+.section {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 15px;
+}
+
+.project h4 {
+    margin: 5px 0;
+}
+
+/* Contact */
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media(max-width: 768px){
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .bio, .image {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Name -->
+<div class="header">
+     PILLALAMARRI GOWTHAMI
+</div>
+
+<div class="container">
+
+    <!-- Left Side -->
+    <div class="bio">
+
+        <!-- About -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am an MCA student with a background in Computer Science and a strong interest in the IT industry.
+                I am passionate about learning new technologies, improving my programming skills, and developing practical solutions.
+                I am a quick learner, hardworking, and interested in building my career as a Software Engineer.
+            </p>
+        </div>
+
+        <!-- Skills -->
+        <div class="section skills">
+            <h2>Skills</h2>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>SQL</span>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h4>Email Spam Detection</h4>
+                <p>Developed using Machine Learning Flask.</p>
+            </div>
+
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2>Education</h2>
+            <p>MCA</p>
+            <p>AURORA PG COLLEGE</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>Email:gowthamigowrig@gmail.com</p>
+            <p>Phone:9347792171</p>
+            <p>Location:Hyderabad</p>
+        </div>
+
+    </div>
+
+    <!-- Right Side Image -->
+    <div class="image">
+        <img src="PassPhoto.jpg" alt="Profile Image">
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    © 2026 Your Name | Portfolio
+</div>
+
+</body>
+</html>

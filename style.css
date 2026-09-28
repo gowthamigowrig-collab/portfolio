@@ -1,0 +1,18 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+  background-color: black;
+  padding: 20px;
+}
+
+.heading h1 {
+  color: crimson;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  color: white;
+  margin: 5px 0;
+}
